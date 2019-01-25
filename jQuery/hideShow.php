@@ -4,6 +4,6 @@
 	<title>Hide and Show</title>
 </head>
 <body>
-    <?php echo "Rakib"; ?>
+    <?php echo "Rakib"."fdasf"; ?>
 </body>
 </html>
