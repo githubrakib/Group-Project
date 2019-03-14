@@ -4,12 +4,6 @@
 	<title>jQuery html</title>
 	<link rel="stylesheet" type="text/css" href="../includes/jsstyle.css">
 	<script src="../includes/jquery.js"></script>
-	<style>
-		table, th, td {
-			border: 1px solid black;
-			border-collapse: collapse;
-		}
-	</style>
 	<script>
 		$(document).ready(function() {
 			//alert($('td').length); //length is 9
@@ -21,13 +15,15 @@
                 alert($(this).html());  // alerts the html content each table row
 			}); */
 
-			$('div, span, a').css('background-color', 'red');
+			$('div, span, a').css('background-color', 'green');
             $('tr:even').css('background-color', 'grey');
             $('tr:odd').css('background-color', 'yellow');
 		});
 	</script>
 </head>
 <body>
+<div class="main">
+	<h2>JQuery Practice</h2>	
     <table style="width:50%; margin: auto;">
         <tr>
 		    <th>Firstname</th>
@@ -57,6 +53,6 @@
 	<br><br>
 	<a href="#">hellow</a><br/><br>
 	<span>Span</span>			
-	
+</div>	
 </body>
 </html>

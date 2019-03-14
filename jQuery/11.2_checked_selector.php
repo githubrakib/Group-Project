@@ -24,14 +24,17 @@
 	</script>
 </head>
 <body>
+<div class="main">
+    <h2>JQuery Practice</h2>
     Skills :
-        <input type="checkbox" name="skills" value="javaScript" >JavaScript
-        <input type="checkbox" name="skills" value="jQuery" >JQuery
-        <input type="checkbox" name="skills" value="php" >PHP
-        <input type="checkbox" name="skills" value="css" >CSS
-        <br/><br/>
+    <input type="checkbox" name="skills" value="javaScript" >JavaScript
+    <input type="checkbox" name="skills" value="jQuery" >JQuery
+    <input type="checkbox" name="skills" value="php" >PHP
+    <input type="checkbox" name="skills" value="css" >CSS
+    <br/><br/>
     
     <input id="btnSubmit" type="submit" name="submit" value="submit">
     <div id="divResult"></div>
+</div>    
 </body>
 </html>

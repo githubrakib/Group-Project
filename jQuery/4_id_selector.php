@@ -7,6 +7,8 @@
 	
 </head>
 <body>
+<div class="main">
+	<h2>JQuery Practice</h2>
     <script>
     	// If more element are same id then jquery return the match 1st id but not error where javaScript an error
     	$(document).ready(function (){
@@ -17,5 +19,6 @@
 	
 	<input type="button" id="button" value="click me" />
 	<input type="button" id="button" value="click me" />
+</div>	
 </body>
 </html>

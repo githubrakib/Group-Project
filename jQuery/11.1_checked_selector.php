@@ -20,6 +20,8 @@
 	</script>
 </head>
 <body>
+<div class="main">
+    <h2>JQuery Practice</h2>    
     Gender :
     <input type="radio" name="gender" value="Male" >Male
     <input type="radio" name="gender" value="Female">Female
@@ -27,5 +29,6 @@
     
     <input id="btnSubmit" type="submit" name="submit" value="submit">
     <div id="divResult"></div>
+</div>    
 </body>
 </html>

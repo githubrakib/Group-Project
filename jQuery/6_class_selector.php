@@ -7,13 +7,15 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			//$('.small, .big').css('border', '5px solid blue');
+			$('.small, p.big').css('border', '5px solid blue');
 			//$('.small, span.big').css('border', '5px solid blue');
-			$('.small, span.big').css('border', '5px solid blue');
 		});
 	</script>
 	
 </head>
 <body>
+<div class="main">
+   <h2>JQuery Practice</h2>
    <span class="small">
    	    span 1
    </span>
@@ -26,5 +28,6 @@
    	    span 2
    </span>
    <p class="big">This is paragraph</p>
+</div>   
 </body>
 </html>

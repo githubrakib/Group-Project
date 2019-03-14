@@ -19,6 +19,8 @@
 	
 </head>
 <body>
+<div class="main"> 
+    <h2>JQuery Practice</h2>   
     <div title="divtitle1">
     	div1
     </div>
@@ -37,5 +39,6 @@
     <div title="divtitle3" style="background-color: green;">
     	div3
     </div>
+</div>    
 </body>
 </html>

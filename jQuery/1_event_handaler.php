@@ -6,6 +6,8 @@
 	<script src="../includes/jquery.js"></script>	
 </head>
 <body>
+	<div class="main">
+        <h2>JQuery Practice</h2>
 
 	<!-- <script type="text/javascript">
 		window.onload = function() {
@@ -48,6 +50,6 @@
 	</script>	
 
     <input type="button" id="button1" value="Click me"/>
-
+    </div>
 </body>
 </html>

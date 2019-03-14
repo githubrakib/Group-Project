@@ -12,6 +12,8 @@
     </script>
 </head>
 <body>
+<div class="main">
+	<h2>JQuery Practice</h2>
 	<script>
 		$(document).ready(function () {
 			$('#button').click(function (){
@@ -21,5 +23,6 @@
 	</script>
 
     <input type="button" id="button" value="Click me"/>
+</div>
 </body>
 </html>

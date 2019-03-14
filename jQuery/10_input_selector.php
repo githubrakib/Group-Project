@@ -20,6 +20,8 @@
 	</script>
 </head>
 <body>
+<div class="main">
+    <h2>JQuery Practice</h2>    
     <form>
         First name:<br>
         <input type="text" name="firstname" value="Rakib">
@@ -46,7 +48,8 @@
         <br>
         <textarea>This is a text area</textarea>
         <br><br>
-        <input type="submit" name="submit" value="submit">
+        <input type="submit" name="submit" value="Submit">
     </form>
+</div>    
 </body>
 </html>
